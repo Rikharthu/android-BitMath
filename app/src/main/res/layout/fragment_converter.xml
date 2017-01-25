@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/fragment_converter_first_number_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="444"
+        android:inputType="textNoSuggestions"/>
+
+    <ImageButton
+        android:id="@+id/fragment_converter_swap_imgbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>
+
+    <EditText
+        android:id="@+id/fragment_converter_second_number_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="444"
+        android:inputType="textNoSuggestions"/>
+
+    <NumberPicker
+        android:id="@+id/fragment_converter_first_number_radix_picker_np"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
